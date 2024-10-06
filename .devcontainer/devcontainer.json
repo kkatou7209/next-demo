@@ -1,0 +1,13 @@
+{
+    "name": "Next Demo",
+    "dockerComposeFile": ["./compose.yml"],
+    "service": "node",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bradlc.vscode-tailwindcss",
+                "ms-vscode.vscode-typescript-next"
+            ]
+        }
+    }
+}
